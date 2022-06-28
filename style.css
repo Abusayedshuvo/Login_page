@@ -81,8 +81,16 @@ button {
     padding: 10px;
     font-size: 18px;
     border-radius: 2px;
+    transition: all 0.3s;
 }
 
+button:hover {
+    box-shadow: 0 1px 6px hsl(0deg 0% 42% / 80%);
+    color: #fff;
+    background-color: #ff4800;
+    transition: all 0.3s;
+}
+ 
 .text-center {
     text-align: center;
 }
